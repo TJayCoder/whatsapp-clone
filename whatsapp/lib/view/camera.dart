@@ -11,6 +11,10 @@ class _CameraState extends State<Camera> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+          backgroundColor: Color(0xff075e54),
+          onPressed: () {},
+          child: Icon(Icons.camera)),
       body: Center(
         child: Text(
           "Camera",

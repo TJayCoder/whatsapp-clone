@@ -23,7 +23,7 @@ class _WhatsappUIState extends State<WhatsappUI> {
             IconButton(onPressed: () {}, icon: Icon(Icons.more_vert))
           ],
           title: Text("Whatsapp Clone"),
-          backgroundColor: Color(0xff075e54),
+          backgroundColor: Color.fromARGB(255, 197, 74, 13),
           bottom: TabBar(
             labelColor: Colors.white,
             indicatorColor: Colors.white,

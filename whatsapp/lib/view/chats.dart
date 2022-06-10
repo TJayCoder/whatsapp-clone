@@ -13,7 +13,7 @@ class _ChatsState extends State<Chats> {
   Widget build(BuildContext context) {
     return Scaffold(
         floatingActionButton: FloatingActionButton(
-            backgroundColor: Color(0xff075e54),
+            backgroundColor: Color.fromARGB(255, 197, 74, 13),
             onPressed: () {},
             child: Icon(Icons.chat)),
         body: ListView.builder(
